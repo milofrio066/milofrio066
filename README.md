@@ -52,23 +52,27 @@ A data science project exploring machine learning for energy consumption predict
 
 ## 🛠️ Technologies & Tools
 
-**Programming**
 
-Python · JavaScript · TypeScript · SQL · HTML · CSS
+## 🛠️ Technologies & Tools
 
-**Web Development**
+### Programming Languages
 
-React · Flask · REST APIs · Supabase · PostgreSQL
+![Languages](https://skillicons.dev/icons?i=python,js,ts,html,css)
 
-**Data & AI**
+### Frontend & Backend
 
-Pandas · Scikit-learn · Machine Learning · Data Analysis
+![Development](https://skillicons.dev/icons?i=react,flask,nodejs)
 
-**Tools & Other Technologies**
+### Databases & Infrastructure
 
-Git · GitHub · Vercel · ESP32 · IoT · Networking
+![Infrastructure](https://skillicons.dev/icons?i=postgres,supabase,vercel,git,github)
 
----
+### AI, Data & IoT
+
+**Machine Learning · Pandas · Scikit-learn · ESP32 · IoT · Network Security**
+
+### Development Approach
+`Full-Stack Development` · `REST APIs` · `UI/UX` · `Software Architecture` · `Data Analysis`
 
 ## 🎯 Current Focus
 
