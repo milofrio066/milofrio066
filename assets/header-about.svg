@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" fill="none">
+<style>
+text{font-family:'Segoe UI','Inter',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Fira Code','Cascadia Code','SF Mono',Consolas,ui-monospace,monospace}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+.blink{animation:blink 1.1s steps(1) infinite}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><linearGradient id="hg" ><stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#7b5cff"/><stop offset="1" stop-color="#ff3df2"/></linearGradient><filter id="hgl" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="pulseG" gradientUnits="userSpaceOnUse" x1="0" x2="160"><stop offset="0" stop-color="#00f0ff" stop-opacity="0"/><stop offset=".5" stop-color="#00f0ff"/><stop offset="1" stop-color="#ff3df2" stop-opacity="0"/></linearGradient></defs>
+<text class="mono" x="8" y="45" font-size="18" fill="#ff3df2">//01</text>
+<rect x="68" y="25" width="10" height="24" fill="#00f0ff" class="blink"/>
+<text x="92" y="47" font-size="28" font-weight="800" letter-spacing="3" fill="url(#hg)" filter="url(#hgl)">ABOUT_ME</text>
+<line x1="292" x2="1092" y1="37" y2="37" stroke="#1c2347" stroke-width="2"/>
+<rect x="292" y="35" width="160" height="4" fill="url(#pulseG)"><animate attributeName="x" values="132;1092" dur="3.2s" repeatCount="indefinite"/></rect>
+<circle cx="1092" cy="37" r="4" fill="#00f0ff" class="pulse"/>
+<text class="mono" x="1192" y="42" font-size="13" fill="#7d86b3" text-anchor="end">[ whoami ]</text>
+</svg>

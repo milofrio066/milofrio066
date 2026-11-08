@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="310" viewBox="0 0 600 310" fill="none">
+<style>
+text{font-family:'Segoe UI','Inter',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Fira Code','Cascadia Code','SF Mono',Consolas,ui-monospace,monospace}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+.blink{animation:blink 1.1s steps(1) infinite}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bgenergy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e1230"/><stop offset="1" stop-color="#05060f"/></linearGradient>
+<linearGradient id="bdenergy" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#7b5cff"/><stop offset="1" stop-color="#ff3df2"/></linearGradient>
+<linearGradient id="barG" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#7b5cff"/><stop offset="1" stop-color="#3dff9a"/></linearGradient>
+<clipPath id="vclip"><rect x="412" y="56" width="160" height="190" rx="10"/></clipPath>
+<filter id="cg" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="1" y="1" width="598" height="308" rx="16" fill="url(#bgenergy)" stroke="#1c2347" stroke-width="2"/>
+<rect x="1" y="1" width="598" height="308" rx="16" stroke="url(#bdenergy)" stroke-width="2.5" stroke-dasharray="220 1592" filter="url(#cg)">
+<animate attributeName="stroke-dashoffset" from="0" to="-1812" dur="7s" repeatCount="indefinite"/></rect>
+<text class="mono" x="32" y="42" font-size="12" fill="#7d86b3" letter-spacing="2">PROJECT_04</text>
+<rect x="522.2" y="24" width="49.8" height="24" rx="12" fill="#ff3df2" fill-opacity=".1" stroke="#ff3df2" stroke-opacity=".6"/>
+<circle cx="535.2" cy="36" r="3.5" fill="#ff3df2" class="pulse"/>
+<text class="mono" x="544.2" y="40" font-size="11" fill="#ff3df2">R&amp;D</text>
+<text x="32" y="98" font-size="34" font-weight="800" fill="#ffffff" letter-spacing=".5">Energy ML</text>
+<text class="mono" x="32" y="126" font-size="12.5" fill="#7b5cff" letter-spacing="1.5">DATA SCIENCE · FORECASTING</text>
+<text x="32" y="162" font-size="16.5" fill="#d7defc" opacity=".9">End-to-end ML pipeline predicting</text><text x="32" y="186" font-size="16.5" fill="#d7defc" opacity=".9">hourly energy consumption in</text><text x="32" y="210" font-size="16.5" fill="#d7defc" opacity=".9">Colombia's non-interconnected zones.</text>
+<rect x="32" y="230" width="63.2" height="26" rx="13" fill="none" stroke="#7b5cff" stroke-opacity=".45"/>
+<text class="mono" x="42" y="247.32" font-size="12" fill="#7b5cff">Python</text><rect x="103.2" y="230" width="63.2" height="26" rx="13" fill="none" stroke="#7b5cff" stroke-opacity=".45"/>
+<text class="mono" x="113.2" y="247.32" font-size="12" fill="#7b5cff">Pandas</text><rect x="174.4" y="230" width="106.4" height="26" rx="13" fill="none" stroke="#7b5cff" stroke-opacity=".45"/>
+<text class="mono" x="184.4" y="247.32" font-size="12" fill="#7b5cff">Scikit-learn</text>
+<text class="mono" x="32" y="288" font-size="12" fill="#7d86b3">↗ github.com/milofrio066</text>
+<rect x="412" y="56" width="160" height="190" rx="10" fill="#05060f" stroke="#1c2347"/>
+<line x1="412" x2="572" y1="87.66666666666667" y2="87.66666666666667" stroke="#1c2347"/><line x1="412" x2="572" y1="119.33333333333334" y2="119.33333333333334" stroke="#1c2347"/><line x1="412" x2="572" y1="151" y2="151" stroke="#1c2347"/><line x1="412" x2="572" y1="182.66666666666669" y2="182.66666666666669" stroke="#1c2347"/><line x1="412" x2="572" y1="214.33333333333334" y2="214.33333333333334" stroke="#1c2347"/><g clip-path="url(#vclip)">
+<path d="M412 151L416 159.03L420 166.28L424 172.03L428 175.73L432 177L436 175.73L440 172.03L444 166.28L448 159.03L452 151L456 142.97L460 135.72L464 129.97L468 126.27L472 125L476 126.27L480 129.97L484 135.72L488 142.97L492 151L496 159.03L500 166.28L504 172.03L508 175.73L512 177L516 175.73L520 172.03L524 166.28L528 159.03L532 151L536 142.97L540 135.72L544 129.97L548 126.27L552 125L556 126.27L560 129.97L564 135.72L568 142.97L572 151L576 159.03L580 166.28L584 172.03L588 175.73L592 177L596 175.73L600 172.03L604 166.28L608 159.03L612 151L616 142.97L620 135.72L624 129.97L628 126.27L632 125L636 126.27L640 129.97L644 135.72L648 142.97L652 151L656 159.03L660 166.28L664 172.03L668 175.73L672 177L676 175.73L680 172.03L684 166.28L688 159.03L692 151L696 142.97L700 135.72L704 129.97L708 126.27L712 125L716 126.27L720 129.97L724 135.72L728 142.97L732 151L736 159.03L740 166.28L744 172.03L748 175.73L752 177L756 175.73L760 172.03L764 166.28L768 159.03L772 151L776 142.97L780 135.72L784 129.97L788 126.27L792 125L796 126.27L800 129.97L804 135.72L808 142.97L812 151" stroke="#00f0ff" stroke-width="2.5"><animateTransform attributeName="transform" type="translate" from="0 0" to="-80 0" dur="2s" repeatCount="indefinite"/></path>
+<path d="M412 165L416 163.47L420 159.23L424 153.19L428 146.67L432 141.1L436 137.69L440 137.17L444 139.67L448 144.64L452 151L456 157.36L460 162.33L464 164.83L468 164.31L472 160.9L476 155.33L480 148.81L484 142.77L488 138.53L492 137L496 138.53L500 142.77L504 148.81L508 155.33L512 160.9L516 164.31L520 164.83L524 162.33L528 157.36L532 151L536 144.64L540 139.67L544 137.17L548 137.69L552 141.1L556 146.67L560 153.19L564 159.23L568 163.47L572 165L576 163.47L580 159.23L584 153.19L588 146.67L592 141.1L596 137.69L600 137.17L604 139.67L608 144.64L612 151L616 157.36L620 162.33L624 164.83L628 164.31L632 160.9L636 155.33L640 148.81L644 142.77L648 138.53L652 137L656 138.53L660 142.77L664 148.81L668 155.33L672 160.9L676 164.31L680 164.83L684 162.33L688 157.36L692 151L696 144.64L700 139.67L704 137.17L708 137.69L712 141.1L716 146.67L720 153.19L724 159.23L728 163.47L732 165L736 163.47L740 159.23L744 153.19L748 146.67L752 141.1L756 137.69L760 137.17L764 139.67L768 144.64L772 151L776 157.36L780 162.33L784 164.83" stroke="#ff3df2" stroke-width="1.5" opacity=".7"><animateTransform attributeName="transform" type="translate" from="-53.3333 0" to="0 0" dur="1.6s" repeatCount="indefinite"/></path></g><path d="M550 70L538 92H548L544 108L558 84H548Z" fill="#ffcf5c" filter="url(#cg)" class="pulse"/><text class="mono" x="422" y="236" font-size="10" fill="#00f0ff">kWh · FORECAST</text>
+<g stroke="#7b5cff" stroke-width="1.5" stroke-linecap="square">
+<path d="M408 64V52H420"/><path d="M564 52H576V64"/>
+<path d="M408 238V250H420"/><path d="M564 250H576V238"/></g>
+</svg>
